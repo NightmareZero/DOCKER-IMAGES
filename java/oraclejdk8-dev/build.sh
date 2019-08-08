@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY=""
 TEAM="nightzhuxy"
 NAME="java"
-TAG="openjdk8-dev"
+TAG="oraclejdk8-dev"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
