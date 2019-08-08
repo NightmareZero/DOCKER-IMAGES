@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY=""
 TEAM="nightzhuxy"
 NAME="jenkins-slave"
-TAG="maven"
+TAG="base"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
