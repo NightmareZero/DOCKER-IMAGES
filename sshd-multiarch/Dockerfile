@@ -1,4 +1,4 @@
-FROM debian:10-slim
+FROM multiarch/debian-debootstrap:arm64-bullseye-slim
 
 RUN apt-get update && \
 apt-get install ssh xzip bzip2 apt-transport-https -y && \
