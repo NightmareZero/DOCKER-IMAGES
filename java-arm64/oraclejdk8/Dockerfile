@@ -1,4 +1,4 @@
-FROM multiarch/debian-debootstrap:arm64-bullseye-slim
+FROM multiarch/debian-debootstrap:arm64-bullseye
 
 ADD Dockerfile /
 ADD jdk-8u261-linux-arm64-vfp-hflt.tar.gz /usr/local
