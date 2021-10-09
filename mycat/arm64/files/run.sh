@@ -7,4 +7,4 @@ fi
 
 
 cd /opt/mycat/bin
-./mycat
+. ./startup_nowrap.sh
