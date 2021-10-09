@@ -16,7 +16,7 @@ sleep 3
 
 {
   { 
-    docker build -t "$FULLNAME" . 
+    docker buildx build --platform linux/arm64 -t "$FULLNAME" . 
   } || {
     echo -e "\e[31merror on build $FULLNAME\e[0m" && \
     exit 1 
