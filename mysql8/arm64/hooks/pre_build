@@ -1,0 +1,5 @@
+#!/bin/sh
+
+docker run --rm --privileged multiarch/qemu-user-static:register --reset
+
+docker pull --platform arm64 mysql/mysql-server:8.0.21
