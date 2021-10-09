@@ -4,8 +4,8 @@ source /etc/profile
 
 REGISTRY=""
 TEAM="nightzhuxy"
-NAME="mysql"
-TAG="8-arm64"
+NAME="mycat"
+TAG="arm64"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
@@ -16,7 +16,7 @@ sleep 3
 
 {
   { 
-    docker build  -t "$FULLNAME" . 
+    docker build -t "$FULLNAME" . 
   } || {
     echo -e "\e[31merror on build $FULLNAME\e[0m" && \
     exit 1 
