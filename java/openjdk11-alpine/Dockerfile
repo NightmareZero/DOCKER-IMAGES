@@ -1,4 +1,4 @@
-FROM nightzhuxy/alpine:3.14
+FROM nightzhuxy/alpine:3.17
 
 RUN   apk update && \
 apk add openjdk11 && \
