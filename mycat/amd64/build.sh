@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY=""
 TEAM="nightzhuxy"
 NAME="mycat"
-TAG="amd64"
+TAG="amd64-1.6.7.3"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
