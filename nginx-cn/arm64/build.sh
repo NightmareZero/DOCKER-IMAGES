@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY=""
 TEAM="nightzhuxy"
 NAME="nginx-cn"
-TAG="arm64"
+TAG="amd64"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
@@ -16,7 +16,7 @@ sleep 3
 
 {
   { 
-    docker buildx build --platform linux/arm64 -t "$FULLNAME" . 
+    docker buildx build --platform linux/amd64 -t "$FULLNAME" . 
   } || {
     echo -e "\e[31merror on build $FULLNAME\e[0m" && \
     exit 1 
