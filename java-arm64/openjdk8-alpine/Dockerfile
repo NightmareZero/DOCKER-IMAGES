@@ -1,4 +1,4 @@
-FROM nightzhuxy/alpine:3.17-arm64
+FROM nightzhuxy/alpine:3.20-arm64
 
 RUN   apk update && \
 apk add openjdk8 tzdata && \
