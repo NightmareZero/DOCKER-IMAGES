@@ -2,4 +2,4 @@
 
 # docker run --rm --privileged multiarch/qemu-user-static:register --reset
 
-docker pull --platform amd64 mysql/mysql-server:8.0.32
+# docker pull --platform amd64 docker.io/library/mysql:8.0.44-debian
