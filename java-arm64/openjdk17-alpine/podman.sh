@@ -14,7 +14,7 @@ sleep 3
 
 {
   { 
-    podman build --arch linux/arm64 -t "$FULLNAME" . 
+    buildah bud --platform linux/arm64 --network=host -t "$FULLNAME" .
   } || {
     echo -e "\e[31merror on build $FULLNAME\e[0m" && \
     exit 1 

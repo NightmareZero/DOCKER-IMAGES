@@ -1,7 +1,7 @@
-FROM nightzhuxy/alpine:3.20-arm64
+FROM nightzhuxy/alpine:3.22-arm64
 
 RUN   apk update && \
-apk add openjdk8 tzdata && \
+apk add openjdk17 tzdata && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone && \
     apk del tzdata && \
