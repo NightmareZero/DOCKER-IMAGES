@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY="docker.io/"
 TEAM="nightzhuxy"
 NAME="java-arm64"
-TAG="8-alpine"
+TAG="17-alpine"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 

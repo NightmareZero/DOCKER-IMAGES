@@ -5,7 +5,7 @@ source /etc/profile
 REGISTRY=""
 TEAM="nightzhuxy"
 NAME="java"
-TAG="8-alpine"
+TAG="17-alpine"
 
 FULLNAME="$REGISTRY$TEAM/$NAME:$TAG"
 
