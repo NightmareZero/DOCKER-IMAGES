@@ -1,6 +1,4 @@
-FROM docker.io/library/mysql:8.0.44
+FROM docker.io/library/mysql:8.0.46
 
-RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo 'Asia/Shanghai' >/etc/timezone
-
-

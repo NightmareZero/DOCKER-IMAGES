@@ -2,7 +2,7 @@
 
 source /etc/profile
 
-REGISTRY=""
+REGISTRY="docker.io/"
 TEAM="nightzhuxy"
 NAME="mysql"
 TAG="8-arm64"
