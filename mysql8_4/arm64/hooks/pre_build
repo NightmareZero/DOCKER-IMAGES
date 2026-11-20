@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# WSL/podman 无 binfmt 时先注册 qemu（WSL 重启后失效，需重跑）
+docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+
+docker pull --platform linux/arm64/v8 docker.io/library/mysql:8.4.13

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# amd64 原生构建，通常无需预拉取；如需强制刷新取消下行注释
+# docker pull --platform amd64 docker.io/library/mysql:8.4.13
